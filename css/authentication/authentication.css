@@ -1,0 +1,2033 @@
+.content{
+    width:100%;
+}
+.content .w{
+    width:1024px;
+    margin:0 auto;
+    padding-top:22px;
+    position:relative;
+}
+.left{
+    position:absolute;
+    width:260px;
+    top:22px;
+    left:0;
+}
+.left .leftMenu{
+    width:260px;
+    height:950px;
+    background:#fafafa;
+}
+.left .leftMenu .personalLogo{
+    width:100%;
+    height:130px;
+    position:relative;
+    border-bottom:1px solid #eeeeee;
+    padding-top:19px;
+}
+.left .leftMenu .personalLogo .originalLogo{
+    width:70px;
+    height:70px;
+    background:#cfcfcf;
+    border-radius:70px;
+    margin:0 auto;
+}
+.left .leftMenu .personalLogo .phoneNumber{
+    width:260px;
+    height:60px;
+    font-weight:bold;
+    font-size:14px;
+    line-height:60px;
+    text-align:center;
+}
+.left .leftMenu .personalLogo .personalEditor{
+    position:absolute;
+    top:18px;
+    right:22px;
+    display:block;
+    width:20px;
+    cursor:pointer;
+    height:20px;
+    background:url("../../img/authenticaton/edit.png") no-repeat center;
+}
+.persoanlCenter{
+    width:100%;
+    height:825px;
+
+}
+.pcFirst{
+    margin-top:16px;
+}
+.centerHead{
+    width:160px;
+    height:38px;
+    padding:0 50px;
+}
+.personalBorderBottom{
+    width:100%;
+    height:1px;
+
+    margin:5px 0;
+}
+.centerHead .centerImg{
+    float:left;
+    margin-top:6px;
+}
+.centerHead .centerHead1{
+    display:block;
+    width:109px;
+    height:38px;
+    line-height:38px;
+    font-size:20px;
+    text-align:center;
+    font-weight:bold;
+    float:left;
+}
+.persoanlCenter .example{
+    width:100%;
+    height:36px;
+    cursor:pointer;
+}
+.persoanlCenter .example .hLogo{
+    float:left;
+    width:10px;
+    height:36px;
+}
+.persoanlCenter .example .options{
+    width:109px;
+    height:36px;
+    line-height:36px;
+    text-align:center;
+    font-size:16px;
+    margin-left:65px;
+    float:left;
+}
+.persoanlCenter .example:hover{
+    /*background:#fff1dc;*/
+    color:#ff9803;
+}
+.persoanlCenter .example:hover .hLogo{
+    /*background:#ff9700;*/
+}
+.persoanlCenter .personalHome{
+    background:#fff1dc;
+    color:#ff9700;
+}
+.persoanlCenter .personalHome .hLogo{
+    background:#ff9700;
+}
+
+.right{
+
+    width:764px;
+    margin-left:260px;
+}
+.right .tab{
+    width:764px;
+    /*height:1688px;*/
+    height:auto;
+}
+/*****************************身份认证板块样式*******************************************/
+.right .identityTab{
+     display:none;
+     padding-left:84px;
+     width:680px;
+    /*第一个*/
+}
+.right .identityTab .headTab{
+    width:100%;
+    height:40px;
+
+}
+.right .identityTab .headTab .tabB{
+    display:block;
+    float:left;
+    width:114px;
+    height:38px;
+    margin-right:12px;
+    outline:none;
+    border:1px solid #dcdcdc;
+    border-radius:6px;
+    font-size:14px;
+    color:#303030;
+    background:#fff;
+    cursor:pointer;
+    font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+.right .identityTab .headTab .owner{
+    background:#ff9700;
+    border:0;
+    color:#fff;
+
+}
+
+.secondTabBox{
+    width:100%;
+    /*height:1648px;*/
+    height:auto;
+}
+ .secondTab{
+    width:100%;
+
+}
+.secondTabBox .ownerTab{
+    display:block;
+}
+ .ownerBox{
+    width:644px;
+    padding-left:36px;
+    padding-top:24px;
+}
+ /********************演艺人认证增加身高***************************************/
+.ownerBox .personalHeight{
+    width:100%;
+    height:40px;
+    margin-bottom:14px;
+}
+.ownerBox .personalHeight .height{
+    display:block;
+    width:72px;
+    height:40px;
+    line-height:40px;
+    font-size:14px;
+    float:left;
+}
+.ownerBox .personalHeight .inputHeight{
+    display:block;
+    width:104px;
+    height:37px;
+    float:left;
+    border:1px solid #c9c9c9;
+    outline:none;
+    text-indent:10px;
+    border-radius:6px;
+}
+ /*************************************************************************/
+ .ownerBox .realName{
+    width:100%;
+    height:39px;
+}
+ .headContent {
+    display: block;
+    float: left;
+    width: 65px;
+    height:39px;
+    line-height:39px;
+    font-size:14px;
+     padding-right:7px;
+
+}
+.input{
+    display:block;
+    float:left;
+    width:295px;
+    height:37px;
+    border:1px solid #c9c9c9;
+    outline:none;
+    border-radius:6px;
+    font-size:12px;
+    text-indent:10px;
+    font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+ .ownerBox .chooseSex{
+    width:100%;
+    height:47px;
+    font-size:14px;
+}
+ .ownerBox .chooseSex .headContent{
+    margin-top:4px;
+}
+ .ownerBox .chooseSex .sex{
+    float:left;
+    width:120px;
+    height:47px;
+    line-height:47px;
+
+}
+.ownerBox .chooseSex .sex .girl{
+    margin-left:28px;
+}
+ .ownerBox .IDNumberBox{
+    width:100%;
+    height:39px;
+}
+.ownerBox .upLoadingPositive{
+    width:100%;
+    height:91px;
+    margin-top:21px;
+    position:relative;
+}
+.upContent{
+    width:116px;
+    height:91px;
+    float:left;
+    font-size:14px;
+}
+.upImg{
+    width:88px;
+    height:91px;
+    cursor:pointer;
+    float:left;
+    position:relative;
+}
+.upImg img{
+    margin-top:3px;
+}
+.upButton{
+    width:165px;
+    height:91px;
+    float:left;
+
+}
+.upButton .noShow{
+    width:130px;
+    height:14px;
+    margin-top:77px;
+    line-height:14px;
+    text-align: center;
+    font-size:14px;
+}
+.ownerBox .upLoadingOppose{
+    width:100%;
+    height:91px;
+    margin-top:33px;
+}
+ .ownerBox .UploadReminder{
+    width:338px;
+    height:53px;
+    line-height:53px;
+    letter-spacing: 1px;
+    color:#ff0100;
+    font-size:12px;
+
+}
+ .ownerBox .showLogo{
+    width:40px;
+    height:5px;
+    background:#ff9700;
+    margin-top:22px;
+}
+.ownerBox .showLogo1{
+    width:40px;
+    height:5px;
+    background:#ff9700;
+    margin-top:13px;
+}
+ .ownerBox .QQBox{
+    width:100%;
+    height:47px;
+    margin-top:20px;
+}
+.ownerBox .phoneBox{
+    width:100%;
+    height:47px;
+    amrgin-top:14px;
+}
+.ownerBox .emailBox{
+    width:100%;
+    height:47px;
+    margin-top:14px;
+}
+.ownerBox .cityPlace{
+    width:100%;
+    height:21px;
+    margin-top:30px;
+
+}
+ .ownerBox .cityPlace .headContent{
+    height:21px;
+    line-height:21px;
+}
+.ownerBox .cityPlace .cityPlaugin{
+    width:435px;
+    height:21px;
+    float:left;
+
+}
+ .ownerBox .cityPlace .cityPlaugin .selec{
+    width:129px;
+    height:21px;
+    display:block;
+    float:left;
+    background:#e6e6e6;
+    margin-right:16px;
+    border:0;
+    outline:none;
+    border-radius:5px;
+    font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+.ownerBox .detailAddress{
+    margin-top:25px;
+    width:100%;
+    height:47px;
+}
+ .ownerBox .companyName{
+    margin-top:14px;
+    width:100%;
+    height:47px;
+}
+ .ownerBox .departmentName{
+    margin-top:14px;
+    width:100%;
+    height:47px;
+}
+.ownerBox .positionJob{
+     margin-top:14px;
+     width:100%;
+     height:47px;
+ }
+ .ownerBox .companyIntroduce{
+    width:100%;
+    height:130px;
+    margin-top:14px;
+
+}
+ .ownerBox .companyIntroduce .companyIntr{
+    width:72px;
+    height:130px;
+    float:left;
+}
+.ownerBox .companyIntroduce .companyIntr .cintroduce{
+    width:100%;
+    height:16px;
+    font-size:14px;
+    margin-top:12px;
+}
+ .ownerBox .companyIntroduce .companyMessage{
+    float:left;
+    width:349px;
+    height:100px;
+    display:block;
+    border:1px solid #c9c9c9;
+    outline:none;
+    border-radius:6px;
+    padding:14px 20px 14px 12px;
+    font-size:14px;
+    line-height:18px;
+    resize: none;
+     font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+ .ownerBox .businessLicense{
+    width:100%;
+    height:90px;
+
+    margin-top:26px;
+}
+.ownerBox .uploadingImgBox{
+    width:100%;
+    height:90px;
+    margin-top:25px;
+}
+.ownerBox .uploadingImgBox .licenseHead{
+    width:104px;
+    height:90px;
+    float:left;
+    font-size:14px;
+}
+.ownerBox .uploadingImgBox .businessReminder{
+    width:576px;
+    height:30px;
+    line-height:30px;
+    padding-left:104px;
+    color:#ff0100;
+    margin-top:2px;
+    font-size:12px;
+    letter-spacing: 1px;
+}
+.ownerBox .businessLicense .licenseHead{
+    width:104px;
+    height:90px;
+    float:left;
+
+    font-size:14px;
+}
+ .ownerBox .businessReminder{
+    width:576px;
+    height:30px;
+    line-height:30px;
+    padding-left:104px;
+    color:#ff0100;
+    margin-top:2px;
+    font-size:12px;
+    letter-spacing: 1px;
+}
+ .ownerBox .submitAplly{
+    display:block;
+    width:281px;
+    height:47px;
+    outline:none;
+    font-size:24px;
+    background:#ff9700;
+    border-radius:6px;
+    color:#fff;
+    margin-top:66px;
+    cursor:pointer;
+     font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+.ownerBox .submitAplly:hover{
+    background:#f58a00;
+}
+ .ownerBox .businessShow{
+    margin-top:36px;
+}
+
+.upCompass{
+    position:absolute;
+    width:112px;
+    height:31px;
+    top:0;
+    left:372px;
+
+    float:left;
+}
+.upCompass img{
+    display:block;
+    float:left;
+    width:34px;
+    height:31px;
+}
+.upCompass .compassExplain{
+    width:78px;
+    height:14px;
+    line-height:14px;
+    float:left;
+    margin-top:17px;
+    font-size:14px;
+}
+.upCompass .compassExplain a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    color:#303030;
+    text-align:center;
+    letter-spacing:1px;
+}
+.upCompass .compassExplain a:hover{
+    color:#ff9700;
+}
+/**********************************传媒公司认证部分样式修改************************/
+.ownerBox .companyScale{
+    width:100%;
+    height:37px;
+}
+.ownerBox .companyScale .chooseScale{
+    width:413px;
+    height:37px;
+
+    float:left;
+    line-height:37px;
+}
+.ownerBox .companyScale .chooseScale .scaleI{
+    margin-left:16px;
+    margin-right:5px;
+}
+.ownerBox .companyScale .chooseScale .firstScale{
+    margin-right:5px;
+}
+.ownerBox .mediaApply{
+    margin-top:16px;
+}
+.ownerBox .lawCaseShow{
+    margin-top:17px;
+    position:relative;
+    font-size:14px;
+}
+.ownerBox .lawCaseShow .showContent{
+    position:absolute;
+    width:70px;
+    height:34px;
+    line-height:34px;
+    top:0;
+    left:0;
+    
+}
+.ownerBox .lawCaseShow .caseShowBox{
+    width:573px;
+    margin-left:70px;
+}
+ .caseShowBox .caseBox{
+    width:573px;
+}
+ .caseShowBox .caseBox .caseExample{
+    width:550px;
+    height:290px;
+    border-radius:6px;
+    border:1px solid #e3e3e3;
+    padding-left:18px;
+    padding-top:9px;
+    font-size:14px;
+}
+.ownerBox .lawCaseShow .caseShowBox .caseBox .caseExample .caseName{
+    width:100%;
+    height:40px;
+
+    margin-top:12px;
+}
+.ownerBox .lawCaseShow .caseShowBox .caseBox .caseExample .casePhoto{
+    width:100%;
+    height:120px;
+    padding-top:14px;
+}
+.ownerBox .lawCaseShow .caseShowBox .caseBox .caseExample .casePhoto .casePhotoHead{
+    width:79px;
+    height:120px;
+    float:left;
+    font-size:14px;
+}
+.caseExample .casePhoto .casePhotoBox{
+    width:330px;
+    height:118px;
+
+    float:left;
+}
+.caseExample .casePhoto .casePhotoBox .addPhotoImg{
+    width:88px;
+    height:89px;
+    float:left;
+
+}
+.caseExample .casePhoto .casePhotoBox .addImgNone{
+    width:130px;
+    height:89px;
+    float:left;
+
+}
+.caseExample .casePhoto .casePhotoBox .addImgNone .addImgNo{
+    width:100%;
+    height:14px;
+    line-height:14px;
+    font-size:14px;
+    text-align:center;
+    margin-top:75px;
+}
+.caseExample .casePhoto .casePhotoBox .addPhotoImg img{
+    margin-top:1px;
+    cursor:pointer;
+}
+.caseExample .casePhoto .casePhotoBox .addPhotoBox{
+    width:218px;
+    height:89px;
+
+}
+.caseExample .casePhoto .casePhotoBox .casePhotoReminder{
+    width:330px;
+    height:29px;
+    line-height:29px;
+    color:#ff0101;
+    font-size:12px;
+    letter-spacing:1px;
+}
+.caseHead{
+    width:76px;
+    height:40px;
+    float:left;
+    line-height:40px;
+    font-size:14px;
+}
+.caseInput{
+    display:block;
+    width:294px;
+    height:38px;
+    float:left;
+    border-radius:6px;
+    border:1px solid #cacaca;
+    outline:none;
+    text-indent:10px;
+}
+.ownerBox .lawCaseShow .caseShowBox .caseBox .caseExample .caseTime{
+    width:100%;
+    height:40px;
+
+}
+.caseBox .caseExample .caseIntroduce{
+    width:100%;
+    height:40px;
+    margin-top:12px;
+}
+.ownerBox .lawCaseShow .caseShowBox .continueAddCase{
+    display:block;
+    width:280px;
+    height:30px;
+    line-height:30px;
+    border-radius:6px;
+    background:#ff9700;
+    margin-top:14px;
+    margin-bottom: 41px;
+    font-size:14px;
+    color:#fff;
+    cursor:pointer;
+    outline:none;
+    font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+.ownerBox .lawCaseShow .caseShowBox .continueAddCase:hover{
+    background:#f58a00;
+}
+/****************************************************************************/
+/**********************************校园组织认证样式*****************************/
+.schoolIdentityBox .caseShowBox .caseBox .caseExample{
+    height:350px;
+}
+.schoolIdentityBox .caseBox .caseExample .caseIntroduce{
+    height:80px;
+
+}
+.schoolTab{
+   height:auto;
+}
+.schoolTab .schoolIdentityBox{
+    height:auto;
+}
+.schoolIdentityBox .caseBox .caseExample .caseIntroduce .schoolIntroduce{
+    width:404px;
+    height:68px;
+    outline:none;
+    border-radius:6px;
+    resize:none;
+    text-indent: 10px;
+    padding-top:12px;
+    padding-left:12px;
+}
+.schoolIdentityBox .caseBox .caseExample .caseIntroduce{
+    margin-bottom: 5px;
+}
+.ownerBox .schoolReminder{
+
+    height:36px;
+    line-height:16px;
+}
+.schoolTab .schoolExtra{
+    width:680px;
+    height:448px;
+    position:relative;
+}
+.schoolTab .schoolExtra .schooLauthentication{
+    position:absolute;
+    top:0;
+    left:-41.5px;
+    width:763px;
+    height:448px;
+}
+.schoolTab .schoolExtra .schooLauthentication .schoolShowLogo{
+    width:100%;
+    height:4px;
+    background:#ff9700;
+    margin-top:41px;
+}
+.schoolTab .schoolExtra .schooLauthentication .schoolAuthenticationH{
+    width:100%;
+    height:54px;
+    line-height:54px;
+    text-align: center;
+    font-size:18px;
+    margin-top:3px;
+}
+.schoolTab .schoolExtra .schooLauthentication .schoolFormMessage{
+    width:100%;
+    height:48px;
+    line-height:24px;
+    text-indent:28px;
+    font-size:14px;
+}
+.schoolTab .schoolExtra .schooLauthentication .downLoadForm{
+    display:block;
+    width:292px;
+    height:30px;
+    background:#fed9a4;
+    color:#2d2f2e;
+    font-size:14px;
+    float:right;
+    border-radius:6px;
+    cursor:pointer;
+}
+.schoolTab .schoolExtra .schooLauthentication .buttonSchool{
+    width:100%;
+    height:30px;
+    margin-top:13px;
+}
+.schoolTab .schoolExtra .schooLauthentication .confirmApplication{
+    display:block;
+    width:281px;
+    height:47px;
+    margin:79px auto;
+    background:#ff9700;
+    border-radius:6px;
+    color:#fff;
+    font-size:24px;
+    cursor:pointer;
+}
+.schoolTab .schoolExtra .schooLauthentication .confirmApplication:hover{
+    background:#f58a00;
+}
+    /****************************************************************************/
+/************************底部样式部分修改***************************************/
+.ownerBoxStrut{
+    width:100%;
+    height:177px;
+}
+.mediaBoxStrut{
+    width:100%;
+    height:58px;
+}
+/*******************************************************************************/
+/***************************演艺板块部分样式修改*******************************************/
+.entertainmentType{
+    width:100%;
+    height:21px;
+    margin-top:35px;
+}
+.entertainmentType .entertainmentTypeBox{
+    width:72px;
+    height:21px;
+    float:left;
+    display:block;
+    font-size:14px;
+    line-height:21px;
+}
+.entertainmentType .entertainmentTypeSelec{
+    width:571px;
+    height:21px;
+    float:left;
+}
+.entertainmentType .entertainmentTypeSelec .compereBox{
+    display:block;
+    width:129px;
+    height:21px;
+    background:#e8e8e8;
+    outline:none;
+    border:0;
+    border-radius:5px;
+    font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+.entertainmentPrice{
+    width:100%;
+    height:40px;
+    margin-top:23px;
+}
+.entertainmentPrice .priceHead{
+    width:72px;
+    height:40px;
+
+    line-height:40px;
+    font-size:14px;
+    float:left;
+}
+.entertainmentPrice .enterTainmentPriceBox{
+    width:570px;
+    height:40px;
+    float:left;
+}
+.entertainmentPrice .enterTainmentPriceBox .priceInput{
+    display:block;
+    width:99px;
+    height:40px;
+    outline:none;
+    border-radius:6px;
+    border:1px solid #c9c9c9;
+    font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+.ownerBox .schoolIntroduce1{
+    margin-top:22px;
+}
+.personalArtReminderBox{
+    margin-top:3px;
+    width:569px;
+    height:36px;
+    font-size:12px;
+    padding-left:102px;
+    line-height:13px;
+    padding-top:7px;
+    color:#ff0101;
+}
+.artShowLinkBox{
+    width:100%;
+    height:40px;
+    margin-top:13px;
+}
+.artShowLinkBox .artShowLinkHead{
+    display:block;
+    width:132px;
+    height:40px;
+    line-height:40px;
+    float:left;
+    font-size:14px;
+}
+.artShowLinkBox .artShowLinkInput{
+    display:block;
+    width:418px;
+    height:38px;
+    outline:none;
+    border-radius:5px;
+    float:left;
+    text-indent:8px;
+    border:1px solid #c9c9c9;
+    font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+.artShowStrut{
+    width:100%;
+    height:74px;
+}
+.secondTabBox .mediaTab{
+    display:none;
+}
+.secondTabBox .schoolTab{
+    display:none;
+}
+.secondTabBox .enterTainmentTab{
+    display:none;
+}
+/********************************身份认证板块样式结束*************************************/
+
+ .personalHomeTab{
+    display:block;
+    /*第二个*/
+}
+.personalHomeTab .personalBack{
+    width:100%;
+    height:111px;
+    background:url(../../img/authenticaton/background_03.png) no-repeat;
+}
+.personalHomeTab .contentBox{
+    width:714px;
+    padding-left:50px;
+}
+.personalHomeTab .contentBox .registerMessage{
+    width:100%;
+    height:74px;
+    line-height:74px;
+    font-size:34px;
+}
+.personalHomeTab .contentBox  .personalMessageBox{
+    width:648px;
+    height:116px;
+    padding-left:16px;
+    background:#fff4e6;
+    border-radius:6px;
+    overflow: hidden;
+}
+.personalHomeTab .contentBox  .personalMessageBox .identityCardid{
+    width:100%;
+    height:24px;
+    margin-top:14px;
+}
+.personalHomeTab .contentBox  .personalMessageBox .identityCardid span{
+    display:block;
+    height:24px;
+    float:left;
+    line-height:24px;
+    padding-right:8px;
+    font-size:18px;
+    color: #ff9700;
+}
+.personalHomeTab .contentBox  .personalMessageBox .identityCardid img{
+    float:left;
+    margin-top:2px;
+}
+.personalHomeTab .contentBox  .personalMessageBox .personalDetail{
+    width:100%;
+    height:32px;
+}
+.personalHomeTab .contentBox  .personalMessageBox .personalDetailFirst{
+    margin-top:5px;
+}
+.personalHomeTab .contentBox  .personalMessageBox .personalDetail .personalCity{
+    display:block;
+    float:left;
+    width:152px;
+    height:32px;
+    line-height:32px;
+    font-size:14px;
+}
+.personalHomeTab .contentBox  .personalMessageBox .personalDetail .personalCity .Pcity{
+    margin-left:8px;
+}
+.personalHomeTab .contentBox  .personalMessageBox .personalDetail .personalName{
+    display:block;
+    float:left;
+    width:150px;
+    height:32px;
+    line-height:32px;
+    font-size:14px;
+}
+.personalHomeTab .contentBox  .personalMessageBox .personalDetail .personalName .Pname{
+    margin-left:8px;
+}
+.personalHomeTab .contentBox  .personalMessageBox .personalDetail .personalPosition{
+    display:block;
+    float:left;
+    line-height:32px;
+    width:300px;
+    height:32px;
+    font-size:14px;
+}
+.personalHomeTab .contentBox  .personalMessageBox .personalDetail .personalPosition .personalPname{
+    margin-left:8px;
+}
+.personalHomeTab .contentBox  .personalMessageBox .personalDetail .personalCorpTimes{
+    display:block;
+    float:left;
+    width:152px;
+    height:32px;
+    line-height:32px;
+    font-size:14px;
+}
+.personalHomeTab .contentBox  .personalMessageBox .personalDetail .personalCorpTimes .pCorTimes{
+    margin-left:8px;
+}
+.personalHomeTab .contentBox  .personalMessageBox .personalDetail .personalStarLevelBox{
+    width:300px;
+    height:32px;
+    display:block;
+    float:left;
+    line-height:32px;
+    font-size:14px;
+}
+.personalHomeTab .contentBox  .personalMessageBox .personalDetail .personalStarLevelBox .personalStarHead{
+    display:block;
+    float:left;
+    width:74px;
+    height:32px;
+}
+.personalHomeTab .contentBox  .personalMessageBox .personalDetail .personalStarLevelBox .personalStarBox{
+    display:block;
+    width:95px;
+    height:32px;
+    float:left;
+
+}
+.personalHomeTab .personalShow{
+    width:80px;
+    height:22px;
+    margin-left:50px;
+    background:#ff9700;
+    margin-top:62px;
+}
+.personalHomeTab  .exampleCompanyMessage{
+    width:714px;
+    padding-left:50px;
+    height:75px;
+    line-height:75px;
+    font-size:34px;
+}
+.personalHomeTab  .examComDetaillMeBox{
+    width:698px;
+    padding-left:66px;
+    font-size:14px;
+}
+.personalHomeTab  .examComDetaillMeBox .enterpriseIdentity{
+    width:100%;
+    height:30px;
+    font-size:18px;
+    color:#ff9700;
+    line-height:30px;
+    position:relative;
+}
+.personalHomeTab  .examComDetaillMeBox .enterpriseIdentity .enterPriseIdenImg{
+    position:absolute;
+    top:4px;
+    left:220px;
+}
+.personalHomeTab  .examComDetaillMeBox .exampleStyleD{
+    width:100%;
+    height:42px;
+    line-height:42px;
+    fomt-size:14px;
+
+}
+.personalHomeTab  .examComDetaillMeBox .companyCity{
+    margin-top:3px;
+}
+.personalHomeTab  .examComDetaillMeBox .exampleStyleD .exampleStyleDSpan{
+    margin-left:10px;
+}
+.personalHomeTab  .examComDetaillMeBox  .companyIntroduceBox{
+    position:relative;
+    font-size:14px;
+}
+.personalHomeTab  .examComDetaillMeBox  .companyIntroduceBox .comapnyIntroduceHead{
+    width:77px;
+    height:42px;
+    line-height:42px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.personalHomeTab  .examComDetaillMeBox  .companyIntroduceBox  .comapnyIntroduceDetail{
+    width:454px;
+    margin-left:77px;
+    padding:10px 0;
+    line-height:20px;
+    text-align: justify;
+}
+.personalHomeTab  .examComDetaillMeBox .companyElegantBox{
+    width:100%;
+    height:115px;
+
+}
+.personalHomeTab  .examComDetaillMeBox .companyElegantBox .companyEHead{
+    width:77px;
+    height:30px;
+    display:block;
+    float:left;
+    line-height:30px;
+    font-size:14px;
+}
+.personalHomeTab  .examComDetaillMeBox .companyElegantBox .comapnyIBox{
+    float:left;
+    width:620px;
+    height:94px;
+    padding:9px 0 12px 0;
+}
+.personalHomeTab  .examComDetaillMeBox .companyElegantBox .comapnyIBox .companyIP{
+    display:block;
+    width:146px;
+    height:93px;
+    float:left;
+    margin-right:9px;
+    border-radius:6px;
+    background:#2f2f2f;
+}
+.personalHomeTab  .examComDetaillMeBox .companyElegantBox .comapnyIBox .companyIP img{
+
+}
+.personalHomeTab  .examComDetaillMeBox .comapnyWorksShow{
+    position:relative;
+    width:100%;
+    font-size:14px;
+    margin-top:36px;
+}
+.personalHomeTab  .examComDetaillMeBox .comapnyWorksShow .companyWSHead{
+    width:77px;
+    height:33px;
+    line-height:33px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.personalHomeTab  .examComDetaillMeBox .comapnyWorksShow  .companyWorksBox{
+    width:550px;
+    border:1px solid #dcdcdc;
+    margin-left:77px;
+    border-radius:6px;
+    padding-left:20px;
+    padding-bottom:6px;
+}
+.personalHomeTab  .examComDetaillMeBox .comapnyWorksShow  .companyWorksBox .companyWorksE{
+    width:100%;
+    height:33px;
+    line-height:33px;
+}
+.personalHomeTab  .examComDetaillMeBox .comapnyWorksShow  .companyWorksBox .companyWorksE .companyWorksC{
+    margin-left:8px;
+}
+.personalHomeTab  .examComDetaillMeBox .companyWorksIntroduce{
+    position:relative;
+    margin-top:5px;
+}
+.personalHomeTab  .examComDetaillMeBox .companyWorksIntroduce .comapnyWorksIHead{
+    position:absolute;
+    top:0;
+    left:0;
+    width:78px;
+    display:block;
+    height:24px;
+}
+.personalHomeTab  .examComDetaillMeBox .companyWorksIntroduce .comapnyWorksIContent{
+    width:372px;
+    padding-bottom: 3px;
+    margin-left:79px;
+}
+.personalHomeTab  .examComDetaillMeBox .comapnyWorksShowBox{
+    width:100%;
+    height:113px;
+    font-size:16px;
+}
+.personalHomeTab  .examComDetaillMeBox .comapnyWorksShowBox .companyWorksSHead{
+    float:left;
+    width:71px;
+    display:block;
+    height:34px;
+    line-height:34px;
+    font-size:14px;
+}
+.personalHomeTab  .examComDetaillMeBox .comapnyWorksShowBox .companyWorksSPicture{
+    float:left;
+    width:475px;
+    height:93px;
+    padding:10px 0;
+}
+.personalHomeTab  .examComDetaillMeBox .comapnyWorksShowBox .companyWorksSPicture .companyWorksSPImg{
+    float:left;
+    width:146px;
+    height:93px;
+    background:#2f2f2f;
+    border-radius:6px;
+    margin-right:9px;
+}
+.distanceBottom{
+    width:100%;
+    height:178px;
+}
+/*甲方企业样式修改*/
+.personalHomeTab .pCownerCompany{
+    display:none;
+}
+.personalHomeTab .pCownerCompany .examComDetaillMeBox .comapnyWorksShow{
+    display:none;
+}
+.personalHomeTab .pCownerCompany .examComDetaillMeBox .distanceBottom
+{
+  height:458px;
+}
+#file{
+    display:block;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    outline:none;
+    opacity:0;
+}
+/***校园社团样式修改***/
+
+.personalHomeTab .persoanlOrganization .contentBox  .personalMessageBox .identityCardid .identityCardStudent{
+    margin-left:36px;
+}
+.personalHomeTab .persoanlOrganization .examComDetaillMeBox .enterpriseIdentity{
+    position:relative;
+    padding-left:28px;
+}
+.personalHomeTab .persoanlOrganization .examComDetaillMeBox .enterpriseIdentity .schoolIdentityLogo{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.personalHomeTab .persoanlOrganization .distanceBottom{
+    height:450px;
+}
+.personalHomeTab .persoanlOrganization{
+    display:none;
+}
+/******************************personalHomeEnd**********************/
+ .draftsTab{
+    display:none;
+    /*第三个*/
+}
+ .changePasswordTab{
+    display:none;
+    /*第四个*/
+}
+ .myBusinessTab{
+     display:none;
+    /*第五个*/
+ }
+/********************************发布板块样式开始***********************************/
+
+.publishTab{
+    display:none;
+    /*第六个*/
+}
+.publishTab .publishSecondTabHead{
+    width:680px;
+    height:62px;
+    padding-left:84px;
+    margin-top:30px;
+}
+.publishTab .publishSecondTabHead .pcTab{
+    display:block;
+    width:115px;
+    height:38px;
+    float:left;
+    outline:none;
+    font-size:14px;
+    border-radius:6px;
+    margin-right:11px;
+    cursor:pointer;
+    background:#fff;
+    border:1px solid #dcdcdc;
+    color:#2f2f2f;
+    font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+.publishTab .publishSecondTabHead .pCommercial {
+    background:#ff9700;
+    color:#fff;
+}
+.publishSecondTabBox{
+    width:680px;
+    padding-left:84px;
+    /*height:860px;*/
+    height:1150px;
+}
+ .publishT{
+    width:642px;
+    height:860px;
+     padding-left:38px;
+}
+.publishSecondTabBox .publishCommercialActivity{
+    display:block;
+}
+.publishSecondTabBox .publishSchoolActivity{
+    display:none;
+
+}
+/*************************校园发布页面样式修改************************************/
+.publishSchoolActivity .schoolScale{
+    width:100%;
+    height:32px;
+    margin-top:18px;
+}
+.publishSchoolActivity .schoolScale .schoolScaleHead{
+    display:block;
+    float:left;
+    width:70px;
+    height:32px;
+    line-height:32px;
+    font-size:14px;
+}
+.publishSchoolActivity .schoolScale .schoolScaleIput{
+    float:left;
+    width:572px;
+    height:32px;
+}
+.publishSchoolActivity .schoolScale .schoolScaleIput .scaleInputExample{
+    height:32px;
+    float:left;
+    display:block;
+    line-height:32px;
+    font-size:14px;
+    padding:0 14px 0 3px;
+}
+.publishSchoolActivity .schoolInsertAdver .schoolActivityWayChoose .advertiseSources{
+    width:90px;
+}
+/*************************校园发布页面******************************************/
+.publishSecondTabBox .publishMediaSources{
+    display:none;
+}
+/**********传媒资源样式start***************/
+.publishMediaSources .mediaNameBox{
+    width:100%;
+    height:40px;
+}
+.publishMediaSources .mediaNameBox .mediaNameHead{
+    display:block;
+    width:70px;
+    height:40px;
+    float:left;
+    line-height:40px;
+    font-size:14px;
+}
+.publishMediaSources .mediaNameBox .mediaNameInput{
+    display:block;
+    width:294px;
+    border:1px solid #cacaca;
+    height:38px;
+    outline:none;
+    border-radius:6px;
+    text-indent:10px;
+}
+.publishMediaSources .mediaAddress{
+    width:100%;
+    height:22px;
+    margin-top:24px;
+}
+.publishMediaSources .mediaAddress .mediaAddressHead{
+    display:block;
+    float:left;
+    width:70px;
+    height:22px;
+    line-height:22px;
+    font-size:14px;
+}
+.publishMediaSources .mediaAddress .mediaAddressInput{
+    width:572px;
+    height:22px;
+    float:left;
+}
+.publishMediaSources .mediaAddress .mediaAddressInput .selec{
+    width:129px;
+    height:21px;
+    display:block;
+    float:left;
+    background:#e6e6e6;
+    margin-right:16px;
+    border:0;
+    outline:none;
+    border-radius:3px;
+    font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+.publishMediaSources .msScale{
+    width:100%;
+    height:40px;
+    margin-top:24px;
+}
+.publishMediaSources .msScale .msScaleHead{
+    width:70px;
+    display:block;
+    height:40px;
+    line-height:40px;
+    font-size:14px;
+    float:left;
+}
+.publishMediaSources .msScale .msScaleIput{
+    float:left;
+    width:572px;
+    height:40px;
+}
+.publishMediaSources .msScale .msScaleIput .msScaleExample{
+    float:left;
+    display:block;
+    height:40px;
+    line-height:40px;
+    padding:0 17px 0 3px;
+    font-size:14px;
+}
+.publishMediaSources .msourceScale{
+    width:100%;
+    height:22px;
+    margin-top:24px;
+}
+.publishMediaSources .msourceScale .msourceScaleHead{
+    display:block;
+    float:left;
+    width:70px;
+    height:22px;
+    line-height:22px;
+    font-size:14px;
+}
+.publishMediaSources .msourceScale .msourceScaleChoose{
+    width:572px;
+    height:22px;
+    float:left;
+}
+.publishMediaSources .msourceScale .msourceScaleChoose .mselec{
+    display:block;
+    float:left;
+    width:130px;
+    height:20px;
+    border:0;
+    background:#e6e6e6;
+    outline:none;
+    margin-right:12px;
+    margin-top:1px;
+    border-radius:3px;
+    font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+.publishMediaSources .mediaSourcePrice{
+    width:100%;
+    height:40px;
+    margin-top:14px;
+}
+.publishMediaSources .mediaSourcePrice .mspHead{
+    display:block;
+    float:left;
+    width:70px;
+    height:40px;
+    line-height:40px;
+    font-size:14px;
+}
+.publishMediaSources .mediaSourcePrice .mspInput{
+    display:block;
+    float:left;
+    width:106px;
+    height:40px;
+    outline:none;
+    text-indent:10px;
+    border-radius:6px;
+    border:1px solid #c9c9c9;
+}
+.publishMediaSources .mediaSourcePrice .mspUnit{
+    display:block;
+    float:left;
+    width:45px;
+    height:40px;
+    line-height:40px;
+    font-size:14px;
+    text-align:center;
+}
+.publishMediaSources .mspPrepay{
+    width:100%;
+    height:22px;
+    margin-top:26px;
+
+}
+.publishMediaSources .mspPrepay .mspPrepayRate{
+    display:block;
+    float:left;
+    width:70px;
+    height:22px;
+    line-height:22px;
+    font-size:14px;
+}
+.publishMediaSources .mspPrepay .mspPrepayChoose{
+    display:block;
+    float:left;
+    width:130px;
+    height:22px;
+    background:#e6e6e6;
+    border-radius:3px;
+    outline:none;
+    border:0;
+}
+.publishMediaSources .mspSourceDescribe{
+    width:100%;
+    height:140px;
+    margin-top:25px;
+}
+.publishMediaSources .mspSourceDescribe .mspsDbHead{
+    width:70px;
+    font-size:14px;
+    float:left;
+    line-height:38px;
+}
+.publishMediaSources .mspSourceDescribe .mspsDbInput{
+    display:block;
+    width:342px;
+    height:98px;
+    float:left;
+    border-radius:6px;
+    padding:13px 9px 13px 9px;
+    outline:none;
+    line-height:18px;
+    resize:none;
+    font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+.publishMediaSources .mspPhoto{
+    width:100%;
+    height:160px;
+}
+.publishMediaSources .mspPhoto .mspPhotoHead{
+    width:70px;
+    float:left;
+    height:160px;
+    font-size:14px;
+}
+.publishMediaSources .mspPhoto .mspPhotoBox{
+    float:left;
+    width:537px;
+    height:160px;
+    padding-left:35px;
+}
+.publishMediaSources .mspPhoto .mspPhotoBox .mspPUpload{
+    width:100%;
+    height:88px;
+}
+.publishMediaSources .mspPhoto .mspPhotoBox .mspPUpload .mspUpImg{
+    cursor:pointer;
+    float:left;
+}
+.publishMediaSources .mspPhoto .mspPhotoBox .mspPUpload .mspUpNone{
+    font-size:14px;
+    display:block;
+    float:left;
+    width:130px;
+    height:15px;
+    line-height:15px;
+    text-align:center;
+    margin-top:73px;
+}
+.publishMediaSources .mspPhoto .mspPhotoBox .mspReminder{
+    width:100%;
+    height:12px;
+    line-height:12px;
+    color:#fe0000;
+    margin-top:9px;
+    font-size:12px;
+}
+.publishMediaSources .mspConfirm{
+    display:block;
+    width:280px;
+    height:47px;
+    background:#ff9700;
+    border-radius:6px;
+    outline:none;
+    font-size:24px;
+    color:#fff;
+    cursor:pointer;
+    font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+.publishMediaSources .mspConfirm:hover{
+    background:#f58a00;
+}
+.publishMediaSources .mspPersonalFlow{
+    width:100%;
+    height:40px;
+    margin-top:24px;
+}
+.publishMediaSources .mspPersonalFlow .mspPFHead{
+    width:70px;
+    height:40px;
+    line-height:40px;
+    display:block;
+    float:left;
+    font-size:14px;
+}
+.publishMediaSources .mspPersonalFlow .mspPFInput{
+    display:block;
+    float:left;
+    width:106px;
+    height:40px;
+    outline:none;
+    border:1px solid #c9c9c9;
+    border-radius:6px;
+    text-indent:10px;
+}
+.publishMediaSources .mspPersonalFlow .mspPFUnit{
+    display:block;
+    float:left;
+    width:45px;
+    height:40px;
+    line-height:40px;
+    font-size:14px;
+    text-align:center;
+}
+.publishMediaSources .mspStadiumBox{
+    width:100%;
+    height:106px;
+    margin-top:24px;
+}
+.publishMediaSources .mspStadiumBox .mspStC{
+    width:100%;
+    height:40px;
+    margin-bottom:12px;
+}
+.publishMediaSources .mspStadiumBox .mspStC .mspStCHead{
+    display:block;
+    float:left;
+    width:70px;
+    line-height:40px;
+    height:40px;
+    font-size:14px;
+}
+.publishMediaSources .mspStadiumBox .mspStC .mspStInput{
+    display:block;
+    float:left;
+    width:104px;
+    height:38px;
+    outline:none;
+    border-radius:6px;
+    text-indent:10px;
+    border:1px solid #c9c9c9;
+}
+.publishMediaSources .mspStadiumBox .mspStC .mspCUnit{
+    display:block;
+    float:left;
+    width:45px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    font-size:14px;
+}
+.publishMediaSources .audienceNumber .audienceNumberHead{
+    width:85px;
+}
+.personalNumber{
+    display:none;
+}
+.audienceNumber{
+    display:none;
+}
+.mspStadiumBox{
+    display:none;
+}
+#secondM{
+    display:none;
+}
+#secondM1{
+    display:none;
+}
+    /***********传媒资源样式end*************/
+
+
+
+.publishSecondTabBox .publishArtRequire{
+    display:none;
+
+}
+/***************演艺需求板块样式修改*********************/
+.publishSecondTabBox .publishArtRequire .describeRequire{
+    width:100%;
+    height:145px;
+    margin-top:14px;
+}
+.publishSecondTabBox .publishArtRequire .describeRequire .describeRequireHead{
+    float:left;
+    width:70px;
+    height:145px;
+    font-size:14px;
+}
+.publishSecondTabBox .publishArtRequire .describeRequire .describeRequireHead .describeRequireHeadContent{
+    display:block;
+    width:100%;
+    height:38px;
+    line-height:38px;
+}
+.publishSecondTabBox .publishArtRequire .describeRequire .describeRequirenput{
+    float:left;
+    width:572px;
+    height:145px;
+}
+.publishSecondTabBox .publishArtRequire .describeRequire .describeRequirenput .describeRequirenputTextarea{
+    display:block;
+    width:346px;
+    height:100px;
+    resize:none;
+    padding:12px 7px 12px 7px;
+    border-radius:6px;
+    outline: none;
+    font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+/****************************************************/
+.publishT .activityName{
+    width:100%;
+    height:40px;
+}
+.publishT .activityName .activityTitle{
+    display:block;
+    float:left;
+    width:70px;
+    line-height:40px;
+    height:40px;
+    font-size:14px;
+}
+.publishT .activityName .activityInput{
+    display:block;
+    width:293px;
+    height:38px;
+    outline:none;
+    border:1px solid #c9c9c9;
+    border-radius:6px;
+    text-indent:10px;
+}
+.publishT .activityType{
+    width:100%;
+    height:20px;
+    margin-top:24px;
+}
+.publishT .activityType .activityTitle{
+    display:block;
+    float:left;
+    width:70px;
+    line-height:20px;
+    height:20px;
+    font-size:14px;
+}
+.publishT .activityType .activityAddress{
+    display:block;
+    width:130px;
+    height:20px;
+    float:left;
+    background:#e6e6e6;
+    border-radius:3px;
+    outline:none;
+    border:0;
+    font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+.publishT .activityPrice{
+    margin-top:25px;
+}
+.publishT .payRate{
+    margin-top:22px;
+}
+.publishT .activityDeadTime{
+    margin-top:25px;
+}
+.publishT .activityDeadTime .deadTimeChooseBox{
+    float:left;
+    width:572px;
+    height:40px;
+}
+.publishT .activityTime{
+    margin-top:16px;
+}
+.publishT .activityDeadTime .deadTimeChooseBox .timeInput{
+    display:block;
+    float:left;
+    width:170px;
+    height:40px;
+    outline:none;
+    border:1px solid #c9c9c9;
+    text-indent:10px;
+    border-radius:6px;
+}
+.publishT .activityDeadTime .deadTimeChooseBox .timeHowLogo{
+    float:left;
+    width:29px;
+    height:40px;
+    display:block;
+    line-height:40px;
+    text-align:center;
+    color:#cacaca;
+}
+.publishT .activityAddressChoose{
+    width:100%;
+    height:21px;
+    margin-top:21px;
+
+}
+.publishT .activityAddressChoose .headContent{
+    height:21px;
+    line-height:21px;
+}
+.publishT .activityAddressChoose .cityPlaugin{
+    width:435px;
+    height:21px;
+    float:left;
+
+}
+.publishT .activityAddressChoose .cityPlaugin .selec{
+    width:129px;
+    height:21px;
+    display:block;
+    float:left;
+    background:#e6e6e6;
+    margin-right:16px;
+    border:0;
+    outline:none;
+    border-radius:5px;
+    font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+.publishT .academyLocationBox{
+    width:100%;
+    height:40px;
+    margin-top:24px;
+}
+.publishT .academyLocationBox .academyheadContent{
+    width:72px;
+    height:40px;
+    line-height:40px;
+    font-size:14px;
+    display:block;
+    float:left;
+}
+.publishT .academyLocationBox .academyLocationChoose{
+    width:362px;
+    height:40px;
+    float:left;
+}
+.publishT .academyLocationBox .academyLocationChoose .academyChoose{
+    display:block;
+    float:left;
+    width:293px;
+    height:38px;
+    border:1px solid #c9c9c9;
+    outline:none;
+    border-radius:6px;
+    text-indent:10px;
+    cursor:pointer;
+}
+.publishT .academyLocationBox .academyLocationChoose .addAcademyChoose{
+    display:block;
+    float:left;
+    width:39px;
+    height:39px;
+    margin-left:14px;
+    background:orangered;
+    cursor:pointer;
+}
+.publishT .schoolPopularity{
+    width:100%;
+    height:40px;
+    margin-top:14px;
+}
+.publishT .schoolPopularity .schoolPopularityHead{
+    width:72px;
+    height:40px;
+    line-height:40px;
+    font-size:14px;
+    float:left;
+    display:block;
+}
+.publishT .schoolPopularity .schoolActivityHead{
+    width:101px;
+}
+.publishT .schoolPopularity .schoolPopularityInput{
+    display:block;
+    width:104px;
+    height:38px;
+    float:left;
+    border:1px solid #c9c9c9;
+    text-indent:10px;
+    border-radius:6px;
+    outline:none;
+}
+.publishT .schoolPopularity .schoolPopularityAfter{
+    display:block;
+    width:25px;
+    height:40px;
+    float:left;
+    line-height:40px;
+    text-align:center;
+    font-size:14px;
+}
+
+.publishT .schoolActivityPublicityStyle{
+    width:100%;
+    height:102px;
+    margin-top:10px;
+}
+.publishT .schoolActivityStyle{
+    width:100%;
+    height:40px;
+    line-height:40px;
+}
+.publishT .schoolActivityStyle .schoolActivityStyleHead{
+    float:left;
+    display:block;
+    width:102px;
+    height:40px;
+    font-size:14px;
+}
+.publishT .schoolActivityStyle .schoolStyleWayBox{
+    display:block;
+    float:left;
+    width:500px;
+    height:40px;
+    font-size:14px;
+}
+.publishT .schoolActivityStyle .schoolStyleWayBox .schoolWay{
+    margin-right:5px;
+}
+.publishT .schoolActivityStyle .schoolStyleWayBox .locale{
+    margin-right:20px;
+}
+.publishT .schoolConfirmButton{
+    display:block;
+    width:281px;
+    height:47px;
+    background:#ff9700;
+    border-radius:6px;
+    font-size:24px;
+    color:#fff;
+    outline:none;
+    cursor:pointer;
+    margin-top:30px;
+    margin-left:1px;
+    font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+.publishT .schoolConfirmButton:hover{
+    background:#f58a00;
+}
+.publishT .schoolActivityPublicityStyle .headContentOne{
+    float:left;
+    width:101px;
+    height:101px;
+    font-size:14px;
+    line-height:31px;
+}
+.schoolActivityPublicityStyle .schoolActivityWayChoose{
+    float:left;
+    width:528px;
+    height:100%;
+    font-size:14px;
+}
+.schoolActivityPublicityStyle .schoolActivityWayChoose .choosePublicityWay{
+    width:63px;
+    height:30px;
+    line-height:30px;
+    float:left;
+}
+.publishT .schoolActivityPublicityStyle .schoolActivityWayChoose .choosePublicityWay .PublicityWay{
+    margin-right:5px;
+    margin-left:3px;
+}
+.publishT .schoolActivityPublicityStyle .schoolActivityWayChoose .PublicityWaySchool{
+    width:98px;
+}
+.publishT .schoolActivityPublicityStyle .schoolActivityWayChoose .choosePublicityInput{
+    display:block;
+    float:left;
+    width:221px;
+    height:49px;
+    border-radius:6px;
+    resize:none;
+    outline:none;
+    margin-top:8px;
+    padding:6px 6px;
+    line-height:18px;
+    font-family:'Microsoft Yahei','Arial','Helvetica','sans-self';
+}
+.schoolActivityWayChooseS{
+    position:relative;
+}
+.schoolActivityWayChooseS .schoolLeaveMessage{
+    position:absolute;
+    top:27px;
+    left:66px;
+}
+/********************************发布板块样式结束***********************************/
+.right .myPublishTab{
+    display:none;
+    width:740px;
+    padding-left:23px;
+    
+}
+.myPublishTab .myPubActDetailBox{
+    width:740px;
+    height:46px;
+
+}
+.myPublishTab .myPubActDetailBox .myPubActDetailBHead{
+    width:190px;
+    height:46px;
+    line-height:46px;
+    display:block;
+    float:left;
+    font-size:24px;
+}
+.myPublishTab .myPubActDetailBox .cooperationStateBox{
+    width:190px;
+    height:20px;
+    display:block;
+    float:right;
+    padding-top:18px;
+}
+.myPublishTab .myPubActDetailBox .cooperationStateBox .coopButton{
+    width:52px;
+    background:#ffffff;
+    height:20px;
+    display:block;
+    border-radius:3px;
+    border:1px solid #dedede;
+    float:left;
+    margin-right:10px;
+    cursor:pointer;
+}
+.myPublishTab .myPubActDetailTitleHead{
+    width:740px;
+    height:40px;
+    background:#ff9700;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+/*************************************/
+.myApplyTab{
+    display:none;
+}
+.mySourcesTab{
+    display:none;
+    /*第七个*/
+}
+.myShowtimeTab{
+    display:none;
+    /*第八个*/
+}
+.activityMessageTab{
+    display:none;
+}
+.systemMessageTab{
+    display:none;
+}
+.applySafeguardTab{
+    display:none;
+}
+.connectBackTab{
+    display:none;
+}
+.myHelpTab{
+    display:none;
+}
+
+
